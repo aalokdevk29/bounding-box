@@ -1,0 +1,71 @@
+.modal-backdrop {
+  width: 100%;
+  height: 100vh;
+  background: #0000009c;
+  position: fixed;
+}
+
+.modal-body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+}
+
+.modal-element {
+  width: 100%;
+  color: white;
+  height: 50px;
+  border-bottom: 1px solid;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.regions-container {
+  padding: 0;
+  margin: 0;
+  max-height: 90vh;
+  overflow-x: auto;
+}
+
+.modal-element p {
+  margin: 0;
+  padding: 0;
+}
+
+.regions-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .regions-container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+.element-name {
+  width: 50%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.region-label {
+  overflow: hidden;
+  max-width: 297px;
+  text-overflow: ellipsis;
+  margin: 0;
+  padding: 0 5px;
+}
+
+.close-btn {
+  color: white;
+  position: absolute;
+  top: 19px;
+  right: 8px;
+  cursor: pointer;
+}

@@ -1,0 +1,1 @@
+export const UPDATE_MODAL_DATA = "UPDATE_MODAL_DATA"
